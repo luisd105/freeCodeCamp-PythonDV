@@ -2,12 +2,7 @@ import pandas as pd
 
 
 def calculate_demographic_data(print_data=True):
-    """
-    Analyzes demographic data from "adult.data.csv" to calculate various statistics.
-
-    This rewritten version uses more idiomatic pandas operations for better
-    performance and readability.
-    """
+  
     # Read data from file
     df = pd.read_csv("adult.data.csv")
 
